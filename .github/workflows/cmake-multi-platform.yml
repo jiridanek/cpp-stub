@@ -15,8 +15,6 @@ jobs:
       fail-fast: false
 
       matrix:
-        build_type: [Release]
-        compiler: [gcc, clang, cl]
         include:
           - os: windows-latest
             compiler: ""
